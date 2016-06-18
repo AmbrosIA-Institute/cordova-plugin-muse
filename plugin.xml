@@ -5,7 +5,7 @@
     version="0.2.11">
     <name>MusePlugin</name>
     <description>A Muse plugin</description>
-    <license>Apache 2.0</license>
+    <license>GNU LGPL v3</license>
     <keywords>cordova, muse</keywords>
     <repo></repo>
     <issue></issue>
