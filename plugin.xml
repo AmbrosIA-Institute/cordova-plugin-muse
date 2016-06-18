@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="institute.ambrosia.museplugin"
+    version="0.2.11">
+    <name>MusePlugin</name>
+    <description>A Muse plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, muse</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/MusePlugin.js" name="MusePlugin">
+        <clobbers target="MusePlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MusePlugin" >
+                <param name="android-package" value="institute.ambrosia.plugins.MusePlugin"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.BLUETOOTH"/>
+            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+        </config-file>
+
+        <source-file src="src/android/MusePlugin.java" target-dir="src/institute/ambrosia/plugins" />
+        <source-file src="src/android/libs/libmuseandroid.jar" target-dir="libs" />
+        <source-file src="src/android/libs/x86/libmuse.so" target-dir="libs/x86" />
+        <source-file src="src/android/libs/armeabi/libmuse.so" target-dir="libs/armeabi" />
+        <source-file src="src/android/libs/armeabi/libmuse.so" target-dir="libs/armeabi-v7a" />
+        <source-file src="src/android/libs/commons-collections4-4.0.jar" target-dir="libs" />
+        <source-file src="src/android/libs/commons-math3-3.5.jar" target-dir="libs" />
+        <source-file src="src/android/libs/commons-lang3-3.4.jar" target-dir="libs" />
+
+        <framework src="fix.gradle" custom="true" type="gradleReference" />
+
+    </platform>
+
+</plugin>
