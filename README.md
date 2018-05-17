@@ -9,6 +9,10 @@ libmuse/libmuse_android_1.3.0/libs/libmuseandroid.jar -> src/android/libs
 libmuse/libmuse_android_1.3.0/libs/x86/libmuse.so     -> src/android/libs/x86  
 libmuse/libmuse_android_1.3.0/libs/armeabi/libmuse.so -> src/android/libs/armeabi  
 
+Has not yet been updated for cordova-android 7.0.0
+https://stackoverflow.com/questions/47926796/cordova-does-not-create-androidmanifest-xml
+
+
 Apache Commons Collections, Apache Commons Lang, and Apache Commons Math are conveniently included here under version 2.0 of the Apache License. 
 
 All other included files are Copyright 2016 The AmbrosIA Institute and released under version 3 of the GNU LGPL.

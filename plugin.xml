@@ -36,7 +36,7 @@
         <source-file src="src/android/libs/commons-math3-3.5.jar" target-dir="libs" />
         <source-file src="src/android/libs/commons-lang3-3.4.jar" target-dir="libs" />
 
-        <framework src="fix.gradle" custom="true" type="gradleReference" />
+        <!-- <framework src="fix.gradle" custom="true" type="gradleReference" /> -->
 
     </platform>
 
