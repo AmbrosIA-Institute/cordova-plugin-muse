@@ -1,0 +1,27 @@
+{
+  "name": "institute.ambrosia.museplugin",
+  "version": "0.2.11",
+  "description": "A Muse plugin",
+  "cordova": {
+    "id": "institute.ambrosia.museplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmbrosIA-Institute/cordova-plugin-muse.git"
+  },
+  "keywords": [
+    "cordova",
+    "muse",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Joshua Jackson",
+  "license": "GNU LGPL v3",
+  "bugs": {
+    "url": "https://github.com/AmbrosIA-Institute/cordova-plugin-muse/issues"
+  },
+  "homepage": "https://github.com/AmbrosIA-Institute/cordova-plugin-muse#readme"
+}
