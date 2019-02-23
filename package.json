@@ -1,27 +1,26 @@
 {
-  "name": "institute.ambrosia.museplugin",
-  "version": "0.2.11",
-  "description": "A Muse plugin",
+  "name": "cordova-plugin-muse",
+  "version": "0.1.0",
+  "description": "A plugin to support the Interaxon Muse EEG headset",
   "cordova": {
-    "id": "institute.ambrosia.museplugin",
+    "id": "cordova-plugin-muse",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmbrosIA-Institute/cordova-plugin-muse.git"
+    "url": "git+https://github.com/AmbrosIA-Institute/cordova-plugin-muse"
   },
   "keywords": [
     "cordova",
-    "muse",
     "ecosystem:cordova",
     "cordova-android"
   ],
   "author": "Joshua Jackson",
-  "license": "GNU LGPL v3",
+  "license": "LGPL",
   "bugs": {
     "url": "https://github.com/AmbrosIA-Institute/cordova-plugin-muse/issues"
   },
-  "homepage": "https://github.com/AmbrosIA-Institute/cordova-plugin-muse#readme"
+  "homepage": "https://github.com/AmbrosIA-Institute/cordova-plugin-muse"
 }

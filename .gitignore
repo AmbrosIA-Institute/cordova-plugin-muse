@@ -1,0 +1,4 @@
+.DS_Store
+src/android/libs/armeabi/libmuse.so
+src/android/libs/libmuseandroid.jar
+src/android/libs/x86/libmuse.so
